@@ -16,7 +16,7 @@ Then put the dataset at `data/1_Case_AEC/Cat` and `data/1_Case_AEC/Dog` (not in 
 ## Layout
 | Path | Content |
 |---|---|
-| `notebooks/1_Case_AEC.ipynb` | Cat vs Dog classifier (Part 2) |
+| `notebooks/cats_vs_dogs_classifier.ipynb` | Cat vs Dog classifier (Part 2) |
 | `src/metrics_utils.py` | Metrics, table and plots |
 | `results/` | One JSON per experiment |
 | `report/` | Report sections + screenshots |

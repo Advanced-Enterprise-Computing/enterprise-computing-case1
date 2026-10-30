@@ -19,7 +19,7 @@ Base setup: Classification, Circle dataset, Show test data ON, features x1 + x2 
 - **B2**: LR 0.03, L2 rate 0.03, noise 0% → 30%. Is L2 smoother? Test performance? Which (L2 on/off) is more robust at 30% noise and why? Screenshot.
 Output: `report/part1_playground.md` + screenshots in `report/img/`.
 
-## Part 2 – Cat vs Dog classifier (`notebooks/1_Case_AEC.ipynb`)
+## Part 2 – Cat vs Dog classifier (`notebooks/cats_vs_dogs_classifier.ipynb`)
 Transfer learning: pretrained ResNet-18, frozen backbone, only the final `fc` layer is trained.
 Required (and explain WHY results differ):
 1. ≥2 train/test split sizes  2. ≥2 optimizers  3. ≥2 metrics  4. one table + ≥2 graphs.
@@ -28,7 +28,7 @@ Dataset lives locally in `data/1_Case_AEC/{Cat,Dog}` (git-ignored, never commit 
 ## Roles and file ownership (only the owner edits a file)
 | Who | Role | Files |
 |---|---|---|
-| Ahmed – AhmedWilly (has RTX 2060 GPU) | Repo owner, notebook, runs all training | `notebooks/1_Case_AEC.ipynb`, `results/*.json` |
+| Ahmed – AhmedWilly (has RTX 2060 GPU) | Repo owner, notebook, runs all training | `notebooks/cats_vs_dogs_classifier.ipynb`, `results/*.json` |
 | Mohamed Gomaa – issamfarouk | Metrics + visualizations, Part 2 write-up | `src/metrics_utils.py`, `report/part2_classifier.md` |
 | Ahmed Abdelrazek – AhmedElngar | Part 1 Playground, final report PDF, slides | `report/part1_playground.md`, `report/img/`, `report/final/`, `slides/` |
 
