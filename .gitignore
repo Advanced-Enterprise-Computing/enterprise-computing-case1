@@ -1,0 +1,14 @@
+# Dataset (453 MB) - every teammate keeps it locally in data/1_Case_AEC/{Cat,Dog}
+data/
+1_Case_AEC/
+
+# Model weights / caches
+*.pth
+*.pt
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# OS junk
+Thumbs.db
+.DS_Store

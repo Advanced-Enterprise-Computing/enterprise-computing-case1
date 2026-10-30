@@ -1,0 +1,12 @@
+# PyTorch with CUDA (NVIDIA GPU):  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+# PyTorch CPU only:                pip install torch torchvision
+torch
+torchvision
+pillow
+scikit-learn
+pandas
+matplotlib
+seaborn
+jupyter
+ipykernel
+nbconvert
