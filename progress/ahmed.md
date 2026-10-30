@@ -26,8 +26,8 @@ Baseline cell (80/20, Adam, 1 epoch): train acc 0.943, test acc 0.984.
 - Test accuracy > train accuracy: train acc is averaged while the model is still learning during the epoch, test acc is measured after the epoch.
 
 ## Next steps
-- Add Issam's metrics/table/graphs code to the notebook (TODO 5 and 6) and re-run.
+- Add Mohamed Gomaa's metrics/table/graphs code to the notebook (TODO 5 and 6) and re-run.
 - Optional: a third split (90/10) or third optimizer (RMSprop).
 
 ## Blockers / questions for the team
-- Issam needs the dataset zip (Google Drive) to run the notebook locally – not needed for `metrics_utils.py`, which only reads `results/*.json`.
+- Mohamed Gomaa needs the dataset zip (Google Drive) to run the notebook locally – not needed for `metrics_utils.py`, which only reads `results/*.json`.

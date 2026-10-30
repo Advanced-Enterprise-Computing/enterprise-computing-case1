@@ -4,7 +4,7 @@ Team of 3. This file is the shared project context.
 
 ## Start / end of every session
 - Start: `git pull`, then read this file and every file in `progress/`.
-- End: update your own file in `progress/` (ahmed.md, issam.md, elngar.md) (done / decisions / next steps / blockers), then commit + push.
+- End: update your own file in `progress/` (ahmed.md, gomaa.md, abdelrazek.md) (done / decisions / next steps / blockers), then commit + push.
 
 ## Deliverables
 - **One PDF** to Moodle by **Mon 02.11.2026 23:59**. Front page: all 3 names + matriculation numbers.
@@ -29,8 +29,8 @@ Dataset lives locally in `data/1_Case_AEC/{Cat,Dog}` (git-ignored, never commit 
 | Who | Role | Files |
 |---|---|---|
 | Ahmed – AhmedWilly (has RTX 2060 GPU) | Repo owner, notebook, runs all training | `notebooks/1_Case_AEC.ipynb`, `results/*.json` |
-| Issam – issamfarouk | Metrics + visualizations, Part 2 write-up | `src/metrics_utils.py`, `report/part2_classifier.md` |
-| Ahmed Elngar – AhmedElngar | Part 1 Playground, final report PDF, slides | `report/part1_playground.md`, `report/img/`, `report/final/`, `slides/` |
+| Mohamed Gomaa – issamfarouk | Metrics + visualizations, Part 2 write-up | `src/metrics_utils.py`, `report/part2_classifier.md` |
+| Ahmed Abdelrazek – AhmedElngar | Part 1 Playground, final report PDF, slides | `report/part1_playground.md`, `report/img/`, `report/final/`, `slides/` |
 
 Jupyter notebooks merge badly → only Ahmed (AhmedWilly) commits changes to the notebook. Others send code snippets
 (or put reusable code in `src/`) and Ahmed adds the cells.
