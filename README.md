@@ -4,7 +4,7 @@ IT Management, TU Dortmund, Winter Term 2026/27. See `assignment.pdf` for the ta
 
 ## Setup
 ```bash
-git clone https://github.com/AhmedWilly/enterprise-computing-case1.git
+git clone https://github.com/Advanced-Enterprise-Computing/enterprise-computing-case1.git
 cd enterprise-computing-case1
 python -m venv .venv
 # Windows: .venv\Scripts\activate    macOS/Linux: source .venv/bin/activate
